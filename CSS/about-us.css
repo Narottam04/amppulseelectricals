@@ -1,0 +1,44 @@
+/* about-us */
+#about-us {
+  display: flex;
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+#about-us h1 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+#about-us img {
+  width: 500px;
+  height: 250px;
+}
+
+#about-us p {
+  line-height: 1.8rem;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #about-us {
+    /* flex-direction: column; */
+    margin: 2rem;
+  }
+  #about-us img {
+    /* display: none; */
+    /* visibility: hidden; */
+    width: 250px;
+    height: 125px;
+  }
+}
+
+@media (max-width: 767px) {
+  #about-us {
+    margin: 2rem;
+  }
+  #about-us img {
+    display: none;
+    visibility: hidden;
+  }
+}
