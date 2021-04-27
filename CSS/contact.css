@@ -55,6 +55,10 @@
   position: relative;
 }
 
+fieldset {
+  border: none;
+}
+
 .form-control input {
   border: 2px solid #d6d5d5;
   outline: none;
@@ -83,7 +87,7 @@
   margin-top: 1.5rem;
 }
 
-.form .submit-btn {
+.submit-btn {
   background-color: lightblue;
   border: 2px solid lightblue;
   color: white;
@@ -93,6 +97,8 @@
   padding: 0.6rem;
   border-radius: 5px;
   font-size: 1rem;
+  cursor: pointer;
+  outline: none;
 }
 
 /* contact form mobile view */

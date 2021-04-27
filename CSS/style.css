@@ -29,9 +29,18 @@ a {
   height: 6rem;
 }
 
+.socials-navbar p {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.3rem 0;
+}
+
 .about-container {
-  max-width: 1300px;
+  max-width: 1380px;
   padding: 0 2rem;
+  padding-top: 3rem;
   margin: 0 auto;
   display: flex;
   position: relative;
@@ -338,9 +347,39 @@ header {
   cursor: pointer;
 }
 
+/* content left image right */
+#section-content {
+  max-width: 1300px;
+  overflow: auto;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.content-right {
+  flex: 1;
+}
+.content-right img {
+  width: 500px;
+  height: 300px;
+  margin-left: 5rem;
+  margin-top: 3rem;
+}
+
+.content-left h1 {
+  font-size: calc(1rem + 1.5vw);
+}
+
+.content-left p {
+  font-size: calc(1rem + 0.1vw);
+  padding-top: 2rem;
+  line-height: 1.9rem;
+}
+
 /* about us home section  */
 #home-about {
   background: black;
+  color: white;
 }
 
 .home-about-us {
@@ -351,7 +390,7 @@ header {
 .home-about-us h1 {
   margin: 2rem;
   margin-top: 7rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: white;
 }
 
@@ -376,13 +415,14 @@ header {
 }
 
 .home-about-left h3 {
-  margin-bottom: 0.5rem;
+  font-size: calc(1rem + 1.5vw);
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .home-about-right {
   line-height: 3rem;
-  margin-top: 4rem;
-  padding-bottom: 3rem;
+  margin-top: 7.5rem;
 }
 
 .home-about-left .btn {
@@ -422,9 +462,42 @@ header {
   padding-bottom: 3rem;
   padding-top: 2rem;
 }
+
 /* footer */
+.footer-action {
+  max-width: 1300px;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+.footer-action h4 {
+  padding-top: 4rem;
+  font-size: 1.3rem;
+}
+
+.footer-action h1 {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.footer-action p {
+  line-height: 1.8rem;
+  padding-bottom: 2.5rem;
+}
+
+.footer-action a {
+  padding: 1rem 3rem 1rem 3rem;
+  text-decoration: none;
+  background: white;
+  color: black;
+  border-radius: 5rem;
+}
+
 .footer {
-  background-color: white;
+  background: black;
+  position: relative;
 }
 
 #footer-container {
@@ -436,26 +509,25 @@ header {
   max-width: 1300px;
   overflow: auto;
   padding: 0 20px;
-  background-color: white;
   margin-bottom: 4rem;
   margin-top: 1rem;
 }
 
 #footer-container h3 {
   margin-top: 3rem;
-  color: #0a4b85;
+  color: #fff;
   padding: 1rem 0 1rem 0;
   text-align: left;
 }
 
 #footer-container p {
-  color: black;
+  color: white;
   line-height: 1.5rem;
   text-align: left;
 }
 
 #footer-container i {
-  color: #0a4b85;
+  color: #fff;
   padding-top: 0.5rem;
 }
 
@@ -466,11 +538,11 @@ header {
 
 .footer-links a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .footer-links a:hover {
-  color: #017dc7;
+  color: rgb(226, 226, 226);
 }
 
 .socials i {
@@ -487,7 +559,7 @@ header {
 }
 
 .column2 {
-  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 .column3 {
@@ -502,11 +574,8 @@ header {
   padding: 0 0.3rem 0 0.3rem;
 }
 
-.socials a:hover {
-  color: #38b2e7;
-}
 .copyright-footer {
-  background-color: black;
+  background: #111;
   color: white;
   text-align: center;
   padding: 2.5rem;
@@ -515,4 +584,8 @@ header {
 .footer-links a {
   padding-bottom: 5px;
   line-height: 1rem;
+}
+
+.footer-container .map {
+  margin-right: 5rem;
 }
