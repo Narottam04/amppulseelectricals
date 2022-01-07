@@ -12,6 +12,33 @@ body {
   /* background-color: black; */
 }
 
+/* swiper */
+.swiper {
+  width: 100vw;
+  height: 80vh;
+  background: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper {
+    height: 40vh;
+  }
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  background: #000;
+  height: 100%;
+  object-fit: cover;
+}
+
 ul {
   list-style: none;
 }
